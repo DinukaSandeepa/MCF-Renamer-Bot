@@ -73,7 +73,6 @@ async def about(c, m, cb=False):
 
     button = [[
         InlineKeyboardButton(f'{HOUSE_WITH_GARDEN} Home', callback_data='back'),
-        InlineKeyboardButton(f'{MONEY_BAG} Donate', callback_data='donate')
         ],[
         InlineKeyboardButton(f'{NO_ENTRY} Close', callback_data="close")
     ]]
